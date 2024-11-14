@@ -1,0 +1,189 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.content {
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    margin: 0 auto;
+
+    .content-left {
+        width: 50%;
+
+        .registratsi {
+            max-width: 364px;
+            margin: auto;
+
+            h2 {
+                font-size: 30px;
+                font-weight: 700;
+                line-height: 45px;
+                text-align: center;
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: center;
+            }
+
+            #form {
+
+                .user-name {
+                    width: 100%;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: #F0EDFFCC;
+                    padding: 14px 18px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    border-radius: 16px;
+                    margin-top: 24px;
+
+                    i {
+                        font-size: 18px;
+                    }
+
+                    #user {
+                        width: 95%;
+                        border: none;
+                        background-color: rgba(240, 248, 255, 0);
+                        font-size: 18px;
+                    }
+
+                    #user:focus {
+                        outline: none;
+                    }
+                }
+
+                .user-password {
+                    width: 100%;
+                    display: flex;
+                    gap: 10px;
+                    align-items: center;
+                    justify-content: space-between;
+                    background-color: #F0EDFFCC;
+                    padding: 14px 18px;
+                    font-size: 12px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    border-radius: 16px;
+                    margin-top: 18px;
+
+                    i {
+                        font-size: 18px;
+                    }
+
+                    #password {
+                        width: 95%;
+                        border: none;
+                        background-color: rgba(240, 248, 255, 0);
+                        font-size: 18px;
+                    }
+
+                    #password:focus {
+                        outline: none;
+                    }
+                }
+
+                #btn {
+                    font-size: 13px;
+                    font-weight: 700;
+                    line-height: 18px;
+                    text-align: center;
+                    padding: 17px 30px;
+                    border-radius: 16px;
+                    display: block;
+                    margin: 24px auto;
+                    border: none;
+                    color: white;
+                    background-color: #634eea;
+                    cursor: pointer;
+                }
+
+                #btn:hover {
+                    background-color: #fff;
+                    color: #634eea;
+                    border: 2px solid #634eea;
+                    font-size: 16px;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                color: #525252;
+
+                .login{
+                    color: #1C1C1C;
+                    font-weight: 700;
+                }
+            }
+
+            .google-facebook {
+
+                .google{
+                    width: 100%;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    gap: 6px;
+                    margin-top: 24px;
+                    background-color: #F0EDFF;
+                    padding: 11px 0;
+                    border-radius: 16px;
+                }
+            }
+        }   
+    }
+
+    .content-right{
+        position: relative;
+
+        .bg-image{
+            display: block;
+            border-radius: 0px 24px 24px 0px;
+        }
+
+        .bg{
+            top: 15.89%;
+            left: 19.91%;
+            position: absolute;
+        }
+
+        .women{
+            position: absolute;
+            top: 15.89%;
+            right: 3.80%;
+        }
+
+        .text{
+            position: absolute;
+            top: 19.27%;
+            left: 24.4%;
+        }
+
+        .group{
+            position: absolute;
+            top: 61.07%;
+            left: 15.47%;
+        }
+    }
+}
